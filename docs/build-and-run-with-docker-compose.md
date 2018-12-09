@@ -32,6 +32,10 @@ Run the following commands where you have copied your built setup. **Don't run t
 - You can get the logs with `docker-compose logs`
 - Stop Aggregate with `docker-compose stop`
 
+## Start containers automatically
+
+If you want to start the containers automatically, you have to modify the docker-compose.yml file by adding restart: on-failure for the container db and the container tomcat8.
+
 ## Advanced topics
 
 ## About this Docker Compose setup
